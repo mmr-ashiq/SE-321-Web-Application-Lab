@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #212121;
+	color: #ffffff;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-image: linear-gradient(260deg, #db55f3 0%, #58aee7 100%);
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+.nav__links {
+	display: flex;
+}
+
+.nav__links a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.nav__item {
+	margin: 0px 10px;
+}
+
+.navbar a:hover {
+	background-color: #000000;
+}
+
+.marquee {
+	background: #7f00ff;
+	background: -webkit-linear-gradient(to right, #e100ff, #7f00ff);
+	background: linear-gradient(to right, #e100ff, #7f00ff);
+
+	margin-top: 5px;
+	height: 60px;
+	border-radius: 10px;
+	font-family: 'Baloo Bhai 2', cursive;
+	font-size: 40px;
+}
+
+.introduction__header {
+	text-align: center;
+}
+
+.html__introduction__card {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.mdn__docs {
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.w3__school {
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.editors__card {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.online__editor {
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.offline__editor {
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.heading__card {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.heading__left {
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.heading__right {
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.table__section {
+	display: flex;
+	justify-content: center;
+}
+
+table {
+	width: 800px;
+	border-right-color: #ffffff;
+	margin-top: 10px;
+	font-size: 18px;
+	border: 1px solid #207dda;
+	border-collapse: collapse;
+	color: #000000;
+}
+
+th,
+td {
+	border: 1px solid #9851e9;
+	padding: 16px 24px;
+	text-align: left;
+}
+
+th {
+	background-color: #00acc1;
+	color: #fff;
+	width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: #b2ebf2;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #e0f7fa;
+}
+
+.meme {
+	display: flex;
+}
+
+.meme__card {
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+
+.meme__part {
+	display: flex;
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.video__part {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	background-color: rgb(109, 106, 105);
+	margin: 5px 15px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.with__css form {
+	max-width: 600px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background: #000000;
+	border-radius: 8px;
+}
+
+.with__css form h1 {
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+.with__css input[type='text'],
+.with__css input[type='password'],
+.with__css input[type='date'],
+.with__css input[type='datetime'],
+.with__css input[type='email'],
+.with__css input[type='number'],
+.with__css input[type='search'],
+.with__css input[type='tel'],
+.with__css input[type='time'],
+.with__css input[type='url'],
+.with__css textarea,
+.with__css select {
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: #8a97a0;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 30px;
+}
+
+.with__css input[type='radio'],
+input[type='checkbox'] {
+	margin: 0 4px 8px 0;
+}
+
+.with__css select {
+	padding: 6px;
+	height: 32px;
+	border-radius: 2px;
+}
+
+.with__css button {
+	padding: 19px 39px 18px 39px;
+	color: rgb(255, 255, 255);
+	/* background-color: #4bc970; */
+	background-image: linear-gradient(45deg, #ec4a93, #f76f22);
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 100%;
+	cursor: pointer;
+	border: none;
+	border-width: 1px 1px 3px;
+	box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+	margin-bottom: 10px;
+}
+
+.form__card{
+	display: flex;
+	width: 100%;
+}
+
+.just__html{
+	width: 50%;
+	padding: 20px 20px;
+}
+
+.with__css{
+	width: 50%;
+}
+
+.with__css button:hover {
+	background-image: linear-gradient(45deg, #2dd1c0, #3a87f3);
+}
+
+.with__css fieldset {
+	margin-bottom: 30px;
+	border: none;
+}
+
+.with__css legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+
+.with__css label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.with__css label.light {
+	font-weight: 300;
+	display: inline;
+}
+
+.with__css .number {
+	background-color: #5f61cf;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+	border-radius: 100%;
+}
+
+.media__title {
+	background: #ee0979;
+	background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+	background: linear-gradient(to right, #ff6a00, #ee0979);
+	text-align: center;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.audio__video__card {
+	display: flex;
+	flex-direction: column;
+}
+
+.audio__card {
+	margin: 20px 20px;
+	display: flex;
+	justify-content: center;
+	/* background-color: #fff; */
+}
+
+.video__card {
+	display: flex;
+	justify-content: center;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/1200px-Flag_of_Argentina.svg.png');
+	margin: 20px 0px;
+}
+
+.about__title {
+	background: #ee0979;
+	background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);
+	background: linear-gradient(to right, #ff6a00, #ee0979);
+	text-align: center;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.about__card {
+	display: flex;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.daily__dev__card {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.social__link {
+	background: #0f2027;
+	background: -webkit-linear-gradient(
+		to right,
+		#2c5364,
+		#203a43,
+		#0f2027
+	);
+	background: linear-gradient(
+		to right,
+		#2c5364,
+		#203a43,
+		#0f2027
+	); 
+
+	width: 50%;
+	border-radius: 10px;
+	padding: 20px 40px;
+	margin-right: 20px;
+}
+
+.social__icon{
+	display: flex;
+	flex-direction: column;
+}
+
+.social__icon a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	margin-top: 10px;
+}
