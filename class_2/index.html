@@ -7,8 +7,9 @@
 		<title>HTML Form</title>
 		<link rel="stylesheet" href="style.css" />
 	</head>
+
 	<body>
-		<div class="form">
+		<!-- <div class="form">
 			<div class="header">
 				<h1>HTML Form</h1>
 			</div>
@@ -44,6 +45,57 @@
 					<button class="reset__btn">Reset</button>
 				</div>
 			</div>
-		</div>
+		</div> -->
+
+		<from>
+			<fieldset>
+				<legend>Favorites</legend>
+
+				<div>
+					<label>Color</label>
+				</div>
+
+				<!-- Dropdown menu using only html -->
+				<div>
+					<input list="color-list" type="text" />
+					<datalist id="color-list">
+						<option value="Red"></option>
+						<option value="Green"></option>
+						<option value="Tomato"></option>
+						<option value="yellow"></option>
+						<option value="Purple"></option>
+					</datalist>
+				</div>
+
+				<br />
+
+				<div>
+					<label>Fruit</label>
+				</div>
+				<div>
+					<input list="fruit-list" type="text" />
+					<datalist id="fruit-list">
+						<option value="Banana"></option>
+						<option value="Strawberry"></option>
+						<option value="Pear"></option>
+						<option value="Peach"></option>
+						<option value="Backberry"></option>
+					</datalist>
+				</div>
+
+				<br />
+
+				<input type="color" />
+
+				<div>
+					<br />
+					<lebel>File Upload</lebel>
+				</div>
+
+				<div>
+					<progress value="50" max="100">50%</progress>
+				</div>
+			</fieldset>
+		</from>
 	</body>
 </html>

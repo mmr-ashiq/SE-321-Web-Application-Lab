@@ -20,13 +20,13 @@
     color: rgb(134, 133, 133);
 }
 
-input{
+/* input{
     padding: 5px;
     background-color: rgb(190, 189, 189);
     border: none;
     border-radius: 5px;
     margin-left: 15px
-}
+} */
 
 .submit__btn {
 	margin-right: 5px;
