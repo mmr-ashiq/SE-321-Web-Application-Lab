@@ -1,0 +1,139 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    /* position: fixed; */
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-image: linear-gradient(260deg, #db55f3 0%, #58aee7 100%);
+	padding: 1rem;
+	text-transform: uppercase;
+}
+
+.nav__links {
+	display: flex;
+}
+
+.nav__links a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.nav__item {
+	margin: 0px 10px;
+}
+
+.li :hover {
+	background-color: #58aee7;
+}
+
+/* .navbar a:hover {
+	background-color: #fff;
+} */
+
+.hero {
+	display: flex;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.image {
+	width: 50%;
+	height: 300px;
+
+	/* background-color: gray; */
+	padding: 20px;
+	margin-right: 20px;
+	border-radius: 10px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+.description {
+	width: 50%;
+	background-color: aquamarine;
+	margin-right: 20px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.first__four__pictures {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.second__four__pictures {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.contact__google__map {
+	display: flex;
+	width: 100%;
+}
+.form__container {
+	padding: 20px;
+}
+
+.btn {
+	background-color: white;
+	color: black;
+	border: 2px solid #4caf50;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #36bd3b;
+    color: #fff;
+}
+.contact__us {
+	width: 50%;
+}
+
+.contact__space{
+    margin-left: 10px;
+    padding: 20px;
+}
+.google__map {
+	width: 50%;	
+}
+
+.map{
+    border: 2px solid salmon;
+}

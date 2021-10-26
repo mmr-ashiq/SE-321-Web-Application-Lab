@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header class="navbar">
+			<div class="logo">
+				<h1>Sobai sukhe thako</h1>
+			</div>
+			<div class="nav__links">
+				<div class="nav__item">
+					<a href="#">Home</a>
+				</div>
+				<div class="nav__item"><a href="#">About</a></div>
+				<div class="nav__item"><a href="#">Contact Us</a></div>
+				<div class="nav__item"><a href="#">Location</a></div>
+			</div>
+		</header>
+		<!-- <div class="navbar__new">
+			<ul>
+				<li style="float: left; color: aquamarine">
+					<h1>Sobhai thako Sukhe</h1>
+				</li>
+				<li><a href="#about">About</a></li>
+				<li><a href="news.asp">News</a></li>
+				<li><a href="contact.asp">Contact</a></li>
+				<li><a href="/">Home</a></li>
+			</ul>
+		</div> -->
+		<div class="hero">
+			<div class="image">
+				<img
+					src="./AcademicBuildingpart1.jpg"
+					alt=""
+					style="width: 500px; height: 250px"
+				/>
+			</div>
+			<div class="description" id="about">
+				<p>
+					Daffodil International University (DIU; Bengali: ড্যাফোডিল আন্তর্জাতিক
+					বিশ্ববিদ্যালয়) is a private university located in Dhaka, Bangladesh.
+					The original campus is located at Dhanmondi and the permanent campus
+					is located in Daffodil Smart City, Khagan, Ashulia, Savar which is in
+					Dhaka District. It was established on 24 January 2002 under the
+					Private University Act of 1992 which was replaced by Private
+					University Act 2010.[2] According to QS University Rankings: Asia
+					2021, DIU is a top-ranked private university among all the
+					universities in Bangladesh.[3] DIU placed 1st among universities
+					ranked from Bangladesh in Times Higher Education Impact Rankings
+					2021.[4] DIU is the first university in Bangladesh to have signed the
+					UN's Commitment to Sustainable Practices of Higher Education
+					Institutions.[5] According to the SCOPUS indexed research publications
+					in 2019, Daffodil International University has been positioned 4th
+					among all universities and 1st among all private universities in
+					Bangladesh.!
+				</p>
+			</div>
+		</div>
+		<h2 style="text-align: center; margin-top: 20px"><u>Galary</u></h2>
+		<div class="galary">
+			<div class="first__four__pictures">
+				<img src="./download.jpg" alt="" />
+				<img src="./download.jpg" alt="" />
+				<img src="./download.jpg" alt="" />
+				<img src="./download.jpg" alt="" />
+			</div>
+			<div class="second__four__pictures">
+				<img src="./download.jpg" alt="" />
+				<img src="./download.jpg" alt="" />
+				<img src="./download.jpg" alt="" />
+				<img src="./download.jpg" alt="" />
+			</div>
+			<h2 style="text-align: center; margin: 20px"><u>Contact Us</u></h2>
+			<div class="contact__google__map">
+				<div class="contact__us">
+					<h2 style="text-align: center">Send a Love ❤️</h2>
+					<div class="form__container">
+						<from>
+							<fieldset>
+								<legend>Contact us</legend>
+								<div class="contact__space">
+									<div>
+										<label>First Name: </label>
+										<input type="text" name="First name" id="" />
+									</div>
+									<br />
+									<div>
+										<label>Last Name: </label>
+										<input type="text" name="First name" id="" />
+									</div>
+
+									<br />
+									<div>
+										<label>Country: </label>
+										<input
+											list="country-list"
+											type="text"
+											placeholder="Bangladesh"
+										/>
+										<datalist id="country-list">
+											<option value="Bangladesh"></option>
+											<option value="india"></option>
+											<option value="Australia"></option>
+											<option value="Brazil"></option>
+											<option value="America"></option>
+										</datalist>
+									</div>
+
+									<br />
+									<div>
+										<label for="">Message:</label>
+										<textarea name="" id="" cols="30" rows="5"></textarea>
+									</div>
+									<br />
+
+									<input type="button" value="Submit" class="btn" />
+								</div>
+							</fieldset>
+						</from>
+					</div>
+				</div>
+
+				<div class="location">
+					<h2 style="text-align: center;">Location</h2>
+					<div class="map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14607.674039771066!2d90.38069759775416!3d23.750285187869864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8ada2664e21%3A0x3c872fd17bc11ddb!2sDaffodil%20International%20University!5e0!3m2!1sen!2sbd!4v1634791700030!5m2!1sen!2sbd"
+							width="600"
+							height="450"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="rgb(222, 132, 250)"
+					fill-opacity="1"
+					d="M0,64L48,58.7C96,53,192,43,288,58.7C384,75,480,117,576,149.3C672,181,768,203,864,186.7C960,171,1056,117,1152,90.7C1248,64,1344,64,1392,64L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+				></path>
+				<text x="550" y="280">
+					Build with 💗 by
+					<a href="https://www.facebook.com/mmr.ashiiq/">@mmr_ashiq</a>
+					🚀 aka ZnCu😉
+				</text>
+			</svg>
+		</footer>
+	</body>
+</html>
