@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.sport__news{
+    text-transform: capitalize;
+    margin: 4px;
+}
+
+.farmers__news{
+    margin: 4px;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+}
