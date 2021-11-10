@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h2>Student Registration From</h2>
+		<form>
+			<lebel>First Name</lebel>
+			<input type="text" />
+			<br />
+			<lebel>Last Name</lebel>
+			<input type="text" />
+			<br />
+
+			<lebel>Email</lebel>
+			<input type="email" />
+			<br />
+
+			<lebel>Gender</lebel>
+			<input type="radio" name="gender" id="male" />
+			<lebel for="male">Male</lebel>
+			<input type="radio" name="gender" id="female" />
+			<lebel for="female">Female</lebel>
+			<br />
+
+			<lebel>Choose Subjects</lebel>
+			<input type="checkbox" name="subjects" id="oop" />
+			<lebel for="oop">OOP</lebel>
+
+			<input type="checkbox" name="subjects" id="dbms" />
+			<lebel for="dbms">Database</lebel>
+
+			<input type="checkbox" name="subjects" id="web" />
+			<lebel for="web">Web Technologies</lebel>
+
+			<input type="checkbox" name="subjects" id="andriod" />
+			<lebel for="andriod">Andriod Dev</lebel>
+
+			<br />
+			<label for="comments">Comments</label>
+			<textarea
+				id="comments"
+				name="comments"
+				rows="5"
+				cols="40"
+				placeholder="Description comes here..."
+			></textarea>
+
+			<br />
+
+			<label for="city">City</label>
+			<select id="city" name="city">
+				<option value="lahore">Lahore</option>
+				<option value="dhaka">Dhaka</option>
+				<option value="shylet">Shylet</option>
+				<option value="chitagong">Chitagong</option>
+			</select>
+
+			<br />
+			<button>Submit</button>
+
+			<button>Reset</button>
+		</form>
+	</body>
+</html>
