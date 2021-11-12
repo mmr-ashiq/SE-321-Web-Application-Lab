@@ -15,4 +15,3 @@
  - [Class - 4: Table Practice with css overflow](https://github.com/mmr-ashiq/SE-321-Web-Application-Lab/tree/master/class_4)
  - [Class - 5: Bootstrap Practice(card, navbar) ](https://meet-your-partner.netlify.app/)
  - [Class - 6: Bootstrap Practice(form, form group) ](https://github.com/mmr-ashiq/SE-321-Web-Application-Lab/tree/master/class_6)
-  - [Class - 7: Javascript Practice](https://github.com/mmr-ashiq/SE-321-Web-Application-Lab/tree/master/class_7)
