@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.sport__news{
+    text-transform: capitalize;
+    margin: 4px;
+}
+
+.farmers__news{
+    margin: 4px;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+}
+
+.headline> button{
+    margin: 4px;
+}
+
+.koeman__full{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.koeman__img img{
+    border-radius: 10px;
+}
+
+.koeman__article{
+    padding: 20px;
+}
+
+.farmers__full{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.farmers__img img{
+    border-radius: 10px;
+}
+
+.farmers__article{
+    padding: 20px;
+}
+
+.farmers__article >h6{
+    color: lightskyblue
+}
