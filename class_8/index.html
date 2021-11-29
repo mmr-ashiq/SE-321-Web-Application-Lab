@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mighty Javascript</title>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+			integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="./style.css">
+
+		<script defer src="./app.js"></script>
+	</head>
+	<body>
+		<main>
+			<input id="number_1" type="number" name="name" placeholder="number 1" />
+				<select id="operation" name="ghorarDim">
+					<option value="addition">+</option>
+					<option value="subtraction">-</option>
+					<option value="multiplication">*</option>
+					<option value="division">/</option>
+				</select>
+				<input
+					id="number_2"
+					type="number"
+					name="name"
+					placeholder="number 2"
+				/>
+				<input type="button" id="submit" value="Submit" />
+			</form>
+			<p>Result: <span id="result"></span></p>
+		</main>
+	</body>
+</html>
